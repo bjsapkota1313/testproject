@@ -31,16 +31,17 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtAddBox = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(16, 73);
+            this.button1.Location = new System.Drawing.Point(16, 105);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Add 1";
+            this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -55,12 +56,20 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.txtAddBox);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(23, 21);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(170, 190);
             this.panel1.TabIndex = 2;
+            // 
+            // txtAddBox
+            // 
+            this.txtAddBox.Location = new System.Drawing.Point(16, 52);
+            this.txtAddBox.Name = "txtAddBox";
+            this.txtAddBox.Size = new System.Drawing.Size(125, 27);
+            this.txtAddBox.TabIndex = 2;
             // 
             // Form1
             // 
@@ -81,5 +90,6 @@
         private Button button1;
         private Label label1;
         private Panel panel1;
+        private TextBox txtAddBox;
     }
 }

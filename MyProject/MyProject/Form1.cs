@@ -11,8 +11,9 @@ namespace MyProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            count /= 2;
-            label1.Text = "Idk: " + count;     
+            int add = int.Parse(txtAddBox.Text);
+            count += add;
+            label1.Text = "Sum: " + count;     
         }
     }
 }
