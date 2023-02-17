@@ -7,12 +7,12 @@ namespace MyProject
             InitializeComponent();
         }
 
-        private int count = 0;
+        private int count = 1;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            count++;
-            label1.Text = "Counter: " + count;
+            count *= 2;
+            label1.Text = "Idk: " + count;     
         }
     }
 }
