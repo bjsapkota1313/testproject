@@ -6,5 +6,13 @@ namespace MyProject
         {
             InitializeComponent();
         }
+
+        private int count = 0;
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            count++;
+            label1.Text = "Counter: " + count;
+        }
     }
 }
