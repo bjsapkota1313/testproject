@@ -13,6 +13,7 @@ namespace MyProject
         {
             count++;
             label1.Text = "Counter: " + count;
+            label1.ForeColor = Color.Red;
         }
     }
 }
