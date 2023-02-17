@@ -12,7 +12,7 @@ namespace MyProject
         private void button1_Click(object sender, EventArgs e)
         {
             count /= 2;
-            label1.Text = "Counter: " + count;
+            label1.Text = "Idk: " + count;     
         }
     }
 }
